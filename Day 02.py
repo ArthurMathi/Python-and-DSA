@@ -26,13 +26,35 @@
 #         print("The total fees for the student is $",totalFees)
 
 # ATM cash withdrawal
-AccountBalance=float(input("Enter your current account balance: "))
-withdrawalAmount=float(input("Enter the amount you want to withdraw: "))
-Transactionlimit=10000
-if withdrawalAmount>AccountBalance:
-    print("Insufficient funds. Your account balance is $",AccountBalance)
-elif withdrawalAmount>Transactionlimit:
-    print("Transaction limit exceeded. The maximum withdrawal amount is $",Transactionlimit)
-else:
-    AccountBalance-=withdrawalAmount
-    print("Withdrawal successful. Your new account balance is $",AccountBalance)
+# AccountBalance=float(input("Enter your current account balance: "))
+# withdrawalAmount=float(input("Enter the amount you want to withdraw: "))
+# Transactionlimit=10000
+# if withdrawalAmount>AccountBalance:
+#     print("Insufficient funds. Your account balance is $",AccountBalance)
+# elif withdrawalAmount>Transactionlimit:
+#     print("Transaction limit exceeded. The maximum withdrawal amount is $",Transactionlimit)
+# else:
+#     AccountBalance-=withdrawalAmount
+#     print("Withdrawal successful. Your new account balance is $",AccountBalance)
+
+# ATM password Based Money Transfer
+# AccountBalance=10000
+# AccountPassword="1982"
+# inputPassword=input("Enter your account password: ")
+# if inputPassword==AccountPassword:
+#     transferAmount=float(input("Enter the amount you want to withdraw: "))
+#     if transferAmount<=0:
+#         print("Invalid amount. Withdrawal amount must be greater than zero.")
+#     elif transferAmount>AccountBalance:
+#         print("Insufficient funds. Your account balance is $",AccountBalance)
+#     else:
+#         AccountBalance-=transferAmount
+#         print("Withdrawal successful. Your new account balance is $",AccountBalance)
+# else:
+#     print("Incorrect password. Please try again.")
+
+    
+       
+
+
+   
