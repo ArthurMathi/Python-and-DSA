@@ -53,6 +53,37 @@
 # else:
 #     print("Incorrect password. Please try again.")
 
+# Movie ticket amount assighing based on Age
+Age = int(input("Enter your age: "))
+showTime = input("Enter show time (Morning/Evening): ")
+
+if Age < 5:
+    ticketPrice = 0
+    print("You are eligible for a free ticket.")
+elif Age >= 5 and Age <= 17:
+    ticketPrice = 100
+    print("You are eligible for a child ticket.")
+elif Age > 60:
+    ticketPrice = 200
+    print("You are eligible for a senior citizen ticket.")
+else:
+    ticketPrice = 250
+    print("You are eligible for an adult ticket.")
+
+if showTime == "Morning":
+    if Age > 60:
+        DiscountPrice = (ticketPrice * 0.7)-50
+        print(f"Morning show- 30% senior citizen discount and 50$ discount applied. Your ticket price is ${DiscountPrice}")
+    else:
+        DiscountPrice = ticketPrice - 50
+        print(f"Morning show- 50$ discount applied. Your ticket price is ${DiscountPrice}")
+elif showTime == "Evening":
+    if Age > 60:
+        DiscountPrice = ticketPrice * 0.7
+        print(f"Evening show- 30% senior citizen discount applied. Your ticket price is ${DiscountPrice}")
+    else:
+        print(f"Evening show. Your ticket price is ${ticketPrice}")
+
     
        
 
