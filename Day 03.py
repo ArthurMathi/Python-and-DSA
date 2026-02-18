@@ -117,5 +117,79 @@
 # print("List7:", list7)
 # print("List8 (copy of list7):", list8)
 
-#  map, filter, reduce
+#  map, filter, reduce-->Functional programming
+# num= [1, 2, 3, 4, 5]
+# result = list(map(lambda x: x*2, num))
+# print( result)
 
+# without lambda
+# def double(x):
+#     return x * 2
+# num = [1, 2, 3, 4, 5]
+# result = list(map(double, num))
+# print(result)
+
+# num = [1, 2, 3, 4, 5, 6, 7]
+# result = list(filter(lambda x: x % 2 == 0, num))
+# print(result)
+
+# without lambda
+# def even(x):
+#     return x % 2 == 0
+# num = [1, 2, 3, 4, 5, 6, 7]
+# result = list(filter(even, num))
+# print(result)
+
+# reduce-----> convert into single value--->functool module
+# from functools import reduce
+# num=[1,2,3,4,5,6]
+# result=reduce(lambda x,y:x+y,num)
+# print(result)
+
+# find the even number and count the even number in the list
+# from functools import reduce
+# list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# Even=list(filter(lambda x: x%2==0,list1))
+# print("Even numbers in the list:", Even)
+# count_even=reduce(lambda x,y:x+1,Even,0)
+# print("Count of even numbers in the list:", count_even)
+
+# # odd number and count the odd number in the list
+# from functools import reduce
+# list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# odd=list(filter(lambda x: x%2==1,list1))
+# print("Odd numbers in the list:", odd)
+# count_odd=reduce(lambda x,y:x+1,odd,0)
+# print("Count of odd numbers in the list:", count_odd)
+
+# Polindrome using slicing
+# word = input("Enter a word: ")
+# if word == word[::-1]:
+#     print(word, "is a palindrome.")
+# else:
+#     print(word, "is not a palindrome.")
+
+# polindrome without slicing
+# word = input("Enter a word: ")
+# reversed_word = ""
+# for char in word:
+#     reversed_word = char + reversed_word
+# if word == reversed_word:
+#     print(word, "is a palindrome.")
+# else:
+#     print(word, "is not a palindrome.")
+
+
+#polindrome third method
+# num=int(input("Enter a number: "))
+# temp=num
+# reversed_num=0
+# while temp>0:
+#     digit=temp%10
+#     reversed_num=reversed_num*10+digit
+#     temp//=10
+# print("Reversed number:", reversed_num) 
+# if num==reversed_num:
+#     print(num,"is a palindrome.")
+# else:
+#     print(num,"is not a palindrome.")

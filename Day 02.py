@@ -165,14 +165,14 @@
 #     i -= 1    
 
 # Bus ticket booking resul with name of passenger  
-TotalSeats=10
-SeatNumber=1
-while TotalSeats>0:
-    passengerName=input("Enter the name of the passenger: ")
-    print(f"Bus ticket booked successfully for {passengerName}. Seat Number: {SeatNumber}")
-    TotalSeats -= 1
-    SeatNumber += 1
-    print(f"Remaining seats: {TotalSeats}")
-print("All seats are booked. No more tickets available.")
+# TotalSeats=10
+# SeatNumber=1
+# while TotalSeats>0:
+#     passengerName=input("Enter the name of the passenger: ")
+#     print(f"Bus ticket booked successfully for {passengerName}. Seat Number: {SeatNumber}")
+#     TotalSeats -= 1
+#     SeatNumber += 1
+#     print(f"Remaining seats: {TotalSeats}")
+# print("All seats are booked. No more tickets available.")
 
 

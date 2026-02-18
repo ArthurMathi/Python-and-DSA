@@ -84,16 +84,16 @@
 #     print("Grade: F") 
 
 # find profit or loss
-numberOfBananas=12
-costPricePerBanana=5.0
-sellingPricePerBanana=7.0
-totalCostPrice=numberOfBananas*costPricePerBanana
-totalSellingPrice=numberOfBananas*sellingPricePerBanana
-if totalSellingPrice>totalCostPrice:
-    profit=totalSellingPrice-totalCostPrice
-    print("You made a profit of $",profit)
-elif totalSellingPrice<totalCostPrice:
-    loss=totalCostPrice-totalSellingPrice
-    print("You incurred a loss of $",loss)
-else:
-    print("You broke even, no profit or loss.")
+# numberOfBananas=12
+# costPricePerBanana=5.0
+# sellingPricePerBanana=7.0
+# totalCostPrice=numberOfBananas*costPricePerBanana
+# totalSellingPrice=numberOfBananas*sellingPricePerBanana
+# if totalSellingPrice>totalCostPrice:
+#     profit=totalSellingPrice-totalCostPrice
+#     print("You made a profit of $",profit)
+# elif totalSellingPrice<totalCostPrice:
+#     loss=totalCostPrice-totalSellingPrice
+#     print("You incurred a loss of $",loss)
+# else:
+#     print("You broke even, no profit or loss.")
