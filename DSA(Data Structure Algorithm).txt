@@ -1,0 +1,67 @@
+DSA(Data Structure Algorithm)
+
+Create
+Read
+Update
+Delete
+
+
+Linear and Non Linear
+---
+
+Big O notation
+Ex: Speedometer
+
+Operation
+insertion
+traversal
+
+stack -LIFO or FILO
+operation
+1)Push --> insert
+2)Pop --> delete
+3)Peek --> view Top item
+
+isEmpty - Check Stack Empty
+SIZE - Number of items
+
+
+PUSH - Add an item at top
+create Empty stack
+input value
+add value to stack
+print stack
+
+
+Pseudocode
+
+push(data)
+if (stack is Full):
+   print stack overflow
+else:
+    top++
+    stack[stack or index]= data
+
+Pseudocode
+ENQUEUE
+
+if queue full -> print "Queue full"
+If first Element -> set front = 0
+Move rear circularly
+insert element
+
+DEQUEUE
+
+If queue Empty -> print "Queue empty"
+Remove Front Element
+if last element removed -> reset front & rear
+Else move Front Circularly
+
+DISPLAY
+
+if empty -> print message
+start from front
+print until rear
+
+step by step logic
+enqueue steps
